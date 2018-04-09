@@ -42,5 +42,19 @@ public class smartphoneAksi {
         System.out.println("jenis\t: "+c.getjenissmartphone());
         System.out.println("ukuranlayar\t: "+c.ukuranlayar()); 
         c.throttle();
+        
+        smartwatch d = new smartwach();
+        d.setMerk("lumiya");
+        d.setWarna("Coklat");
+        d.setMemory("4GB");
+        d.setHarga(450000);
+        d.setjenissmartphone("hp jam tangan");
+        d.setukuralayar("2 imci");
+        d.settipejam("clasik");
+        d.cetakInfo();
+        System.out.println("jenis\t: "+d.getjenissmartphone());
+        System.out.println("ukuranlayar\t: "+d.getukuranlayar());
+        System.out.println("tipejam\t: "+d.gettipejam());
+        d.throttle();
     }
 }
