@@ -1,14 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package pbo03;
 
-/**
- *
- * @author ikhsan
- */
-public class smartwatch {
+public class smartwatch extends smartphone{
+    private String jenismartphone;
+    private String ukuranlayar;
+    private String tipejam;
     
+      void throttle(){
+        System.out.println("ini hp jamtangan  loo...");
+        
+    }
 }
