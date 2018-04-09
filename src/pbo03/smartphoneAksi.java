@@ -30,5 +30,17 @@ public class smartphoneAksi {
         System.out.println("Jenis\t: "+b.getJenismartphone());
         System.out.println("ukuranlayar\t: "+b.getukuranlayar());
         b.throttle();
+        
+        smarttable c = new smarttable();
+        c.setMerk("apple");
+        c.setWarna("silver");
+        c.setMemory("1tera");
+        c.setHarga(15000000);
+        c.setjenissmartphone("hp di meja");
+        c.setukuranlayar("24 inci");
+        c.cetakInfo();
+        System.out.println("jenis\t: "+c.getjenissmartphone());
+        System.out.println("ukuranlayar\t: "+c.ukuranlayar()); 
+        c.throttle();
     }
 }
