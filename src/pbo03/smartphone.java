@@ -1,14 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package pbo03;
 
-/**
- *
- * @author m.nasrullah
- */
 public class smartphone {
+    private String merk;
+    private String warna;
+    private String memory;
+    private double harga;
+    
+    
+    
+ 
     
 }
