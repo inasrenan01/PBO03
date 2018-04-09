@@ -1,10 +1,10 @@
 package pbo03;
 
 public class smartphone {
-    String merk;
-    String warna;
-    String memory;
-    double harga;
+    private String merk;
+    private String warna;
+    private String memory;
+    private double harga;
     
     
     void cetakInfo() {
