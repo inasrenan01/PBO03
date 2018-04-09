@@ -9,5 +9,15 @@ public class smartphoneAksi {
         a.setHarga(150000);
         
         a.cetakInfo();
+        
+        System.out.print("Merknya \t:");
+        System.out.println(a.getMerk());
+        System.out.print("Warnanya \t:");
+        System.out.println(a.getWarna());
+        System.out.print("Memorynya \t:");
+        System.out.println(a.getMemory());
+        System.out.print("Harganya \t:");
+        System.out.println(a.getHarga());
+    
     }
 }
