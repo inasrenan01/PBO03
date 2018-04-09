@@ -5,7 +5,7 @@ public class smarttable  extends smartphone{
     private String ukuranlayar;
     
     void throttle(){
-        System.out.println("tablet loo...");
+        System.out.println("hp di meja  loo...");
         
     }
 
