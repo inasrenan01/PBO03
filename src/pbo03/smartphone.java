@@ -7,7 +7,7 @@ package pbo03;
 
 /**
  *
- * @author ikhsan
+ * @author m.nasrullah
  */
 public class smartphone {
     
