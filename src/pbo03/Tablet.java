@@ -7,15 +7,22 @@ public class Tablet  extends smartphone{
     void throttle(){
         System.out.println("tablet loo...");
         
-        
     }
 
     public String getJenismartphone() {
         return jenismartphone;
     }
 
+    public void setJenismartphone(String jenismartphone) {
+        this.jenismartphone = jenismartphone;
+    }
+
     public String getUkuranlayar() {
         return ukuranlayar;
+    }
+
+    public void setUkuranlayar(String ukuranlayar) {
+        this.ukuranlayar = ukuranlayar;
     }
     
 }
