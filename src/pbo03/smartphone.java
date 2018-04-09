@@ -7,7 +7,9 @@ public class smartphone {
     private double harga;
     
     
-    
- 
-    
+    void cetakInfo() {
+        System.out.println("Merk \t:"+merk+"\n"+
+                "Warna \t:"+warna+"\n"+
+                "Ukuran \t:"+memory+"\n"+
+                "Harga \t:"+harga); 
 }
