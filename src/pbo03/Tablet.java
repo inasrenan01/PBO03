@@ -6,6 +6,16 @@ public class Tablet  extends smartphone{
     
     void throttle(){
         System.out.println("tablet loo...");
+        
+        
+    }
+
+    public String getJenismartphone() {
+        return jenismartphone;
+    }
+
+    public String getUkuranlayar() {
+        return ukuranlayar;
     }
     
 }
