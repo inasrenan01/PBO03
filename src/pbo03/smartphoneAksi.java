@@ -19,5 +19,16 @@ public class smartphoneAksi {
         System.out.print("Harganya \t:");
         System.out.println(a.getHarga());
     
+        tablet b = new tablet();
+        b.setMerk("samsung");
+        b.setWarna("putih");
+        b.setMemory("23GB");
+        b.setHarga(2000000);
+        b.setJenissmartphone("hp layar besar");
+        b.setukuranlayar("8 imci");
+        b.cetakInfo();
+        System.out.println("Jenis\t: "+b.getJenismartphone());
+        System.out.println("ukuranlayar\t: "+b.getukuranlayar());
+        b.throttle();
     }
 }
